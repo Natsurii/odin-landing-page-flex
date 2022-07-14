@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============ HEADER  ============*/
+.header {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.header div {
+    flex: 1 1 0%;
+    color: white;
+}
+
+.header a{
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    background-color: #3882F6; 
+}
+
+#logo {
+    flex: 3 1 0%;
+
+}
