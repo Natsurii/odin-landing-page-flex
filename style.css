@@ -86,6 +86,7 @@ header a:hover{
     object-fit: cover;
 
 }
+
 /* ============ INFORMATION  ============*/
 
 .information{
@@ -119,6 +120,7 @@ header a:hover{
     object-fit: cover;
 }
 /* ============ QUOTE  ============*/
+
 .quote {
     padding: 2rem 10em 5rem 10em;
     background: #E5E7EB;
@@ -134,9 +136,13 @@ header a:hover{
     text-align: right;
     padding-right: 10rem;
     font-size: 2.4rem;
-}/* ============ ACTION  ============*/
+}
+
+/* ============ ACTION  ============*/
+
 .action {
     display: flex;
+    flex-wrap: wrap;
     margin: 5rem 30rem;
     padding: 2.5rem 5rem;
     background: #3882F6;
@@ -146,8 +152,8 @@ header a:hover{
     color: white;
 }
 
-
 .action button{
+    flex-shrink: 0;
     height: 3rem;
     background: #3882F6;
     border-radius: 10px;
