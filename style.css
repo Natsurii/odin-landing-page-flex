@@ -1,38 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+html {
+    font-size: 61.5%;
+}
 body {
     margin: 0;
+    padding: 0%;
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 /* ============ HEADER  ============*/
-.header {
-    padding-left: 200px;
-    padding-right: 200px;
+header {
+    padding: 0 10em;
     background-color: #1F2937;
-    height: 60px;
     display: flex;
     align-items: center;
    
 }
 
-.header div {
-    flex: 1 1 0%;
+header div {
+    flex: 1;
     color: white;
 }
 
-.header a{
+header  a{
     text-align: center;
     border-radius: 5px;
-    padding: 12px;
+    padding: 2rem;
     text-decoration: none;
     color: white;
+    font-size: 2rem;
 }
-.header a:hover{
+header a:hover{
     background-color: #3882F6; 
 }
 
-#logo {
-    flex: 3 1 0%;
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+/* ============ HERO  ============*/
+
+.hero {
+    display: flex;
+    padding: 2rem 10em 5rem 10em;
+    background: #1F2937;
+    color: white;
+    gap: 24px;
+    align-items: stretch;
+}
+.hero > *{
+    flex: 1;
+}
+
+.left {
+    padding: 7rem 0;
+}
+
+.hero h1{
+    font-size: 4.8rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero p{
+    font-weight: lighter;
+    padding-right: 5rem;
+    font-size: 1.8rem;
+}
+.signup{
+    font-size: 1.8rem;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+}
+.imgcontainer {
+    border-radius: 15px;
+    min-height: 10rem;
+    width: 50%;
+    object-fit: cover;
+
+}
+/* ============ INFORMATION  ============*/
+/* ============ FOOTER  ============*/
+
+footer {
+    margin: 0;
+    min-height: 2.5rem;
+    background:#1F2937;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
 }
