@@ -13,27 +13,35 @@ body {
 /* ============ HEADER  ============*/
 header {
     padding: 0 10em;
-    background-color: #1F2937;
+    background-color: #26252c;
     display: flex;
     align-items: center;
    
 }
-
+.item{
+    display: flex;
+    gap: 1rem;
+    justify-content: safe;
+}
+.item p{
+    font-size: 2rem;
+    font-weight: bolder;
+}
 header div {
     flex: 1;
-    color: white;
+    color: #EFD587;
 }
 
-header  a{
+header a{
     text-align: center;
     border-radius: 5px;
     padding: 2rem;
     text-decoration: none;
-    color: white;
-    font-size: 2rem;
+    color: #EFD587;
+
 }
 header a:hover{
-    background-color: #3882F6; 
+    background-color: #E54861; 
 }
 
 .nav {
@@ -48,8 +56,8 @@ header a:hover{
 .hero {
     display: flex;
     padding: 2rem 10em 5rem 10em;
-    background: #1F2937;
-    color: white;
+    background: #26252c;
+    color: #EFD587;
     gap: 24px;
     align-items: stretch;
 }
@@ -65,6 +73,7 @@ header a:hover{
     font-size: 4.8rem;
     font-weight: bolder;
     margin: 0;
+    
 }
 
 .hero p{
@@ -76,7 +85,7 @@ header a:hover{
     font-size: 1.8rem;
     padding: 1rem 4rem;
     border-radius: 5px;
-    background-color: #3882F6;
+    background-color: #E54861;
     color: white;
 }
 .imgcontainer {
@@ -91,14 +100,14 @@ header a:hover{
 
 .information{
     padding: 2rem 10em 5rem 10em;
+    background: #E54861;
 }
 .information h1 {
     text-align: center;
     font-size: 4.8rem;
     font-weight: bolder;
-
+    color: #EFD587;
 }
-
 .infoitem {
     display: flex;
     justify-content: center;
@@ -107,55 +116,61 @@ header a:hover{
 }
 
 .infoitem div{
-    
     width: 200px;
     text-align: center;
+    color: #26252c;
 }
 
 .infoitem img {
     border-radius: 10px;
-    border: 4px solid #3882F6;
     height: 200px;
-    max-width: 200px;
+    width: 200px;
     object-fit: cover;
 }
 /* ============ QUOTE  ============*/
 
 .quote {
     padding: 2rem 10em 5rem 10em;
-    background: #E5E7EB;
+    background: #26252c;
 }
 .quote blockquote {
     font-size: 3.6rem;
     font-weight: lighter;
     font-style: italic;
     text-align: center;
+    color: #EFD587;
 }
 
 .quote p{
     text-align: right;
     padding-right: 10rem;
     font-size: 2.4rem;
+    color: #EFD587;
 }
 
 /* ============ ACTION  ============*/
 
+.action-bg{
+    background: #26252c;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
 .action {
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 30rem;
+    margin: 0 30rem 0 30rem;
     padding: 2.5rem 5rem;
-    background: #3882F6;
+    background: #EFD587;
     gap: 52px;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #26252c;
 }
 
 .action button{
     flex-shrink: 0;
     height: 3rem;
-    background: #3882F6;
+    background: #26252c;
     border-radius: 10px;
     width: 15rem;
     color: white;
@@ -166,7 +181,7 @@ header a:hover{
 footer {
     margin: 0;
     min-height: 2.5rem;
-    background:#1F2937;
+    background: #26252c;
     text-align: center;
     color: white;
     font-weight: lighter;
